@@ -1,0 +1,123 @@
+id,paper id,title,categories,type,content,question
+3620,2501.01947,a uniform action of the dihedral group $ z_2\times d_3$ on   littlewood--richardson coefficients,['math.co'],propositions,"\label{prop:burge} Let  $T\in \rm LR(\mu,\nu,\lambda^\vee)$ with the Burge arrays \eqref{biword}.
+Then under RSK correspondence one has:
+
+  $(a)$ $W^{\lambda/\mu}\mapsto(Y(\nu),G)$ and $W_{\nu}\mapsto(G,Y(\nu))$ where $Q(W_\nu)=Y(\nu)=P(w(T))$ and $Q(W^{\lambda/\mu})=G=P({\bf g})$.
+
+$(b)$ $w(G)={\bf g}$, that is, $W_{\nu}=\left(\begin{smallmatrix}{w(G)}\\
+{\bf x}
+\end{smallmatrix}\right)$.
+
+ $(c)$ {$\widehat G=\widehat{Q(W^{\lambda/\mu})}=Q(w(T))=U(w(T))$}, that is, the
+$Q$-symbol of a Yamanouchi word $w$, with respect to Burge correspondence, is $U(w)$. That is,
+$G$ is a semistandard Young tableau of shape $\nu$ and content $\lambda/\mu$, such that  each row $i$  tell us in which rows of $T$ the $i$'s are filled in.",What is the relationship between the $Q$-symbol of a Yamanouchi word $w$ and the Burge correspondence of $w$?
+7027,2501.03224,testing approximate stationarity concepts for piecewise affine functions,['math.oc'],propositions,"\label{prop:all-are-transveral}
+Assume that any one of the following conditions holds:
+\begin{enumerate}[label=\textnormal{(\alph*)}]
+	\item The \PA{} function $-g'$ is Clarke regular.
+	\item The matrices $\bm{A}$ and $\bm{B}$ are separable in the sense of \nref{eq:motiv-separability}.
+	\item The matrix $\bm{D}$ in \nref{eq:motiv-surj} has full column rank.
+\end{enumerate}
+Then, we have
+\begin{equation}\label{eq:pre-transverality}
+	\parr(\partial h'(\bm{w}))\cap \parr (\partial g'(\bm{w})) = \{\bm{0}\}.
+\end{equation}",Is the pre-transversality condition in \eqref{eq:pre-transverality} equivalent to the Clarke regularity of the \PA{} function $-g'$?
+9679,2501.04048,geometry of weak metric $f$-manifolds: a survey,['math.dg'],definitions,"\rm
+(i) A weak metric $f$-structure $({f},Q,\xi_i,\eta^i,g)$ is called a \textit{weak ${K}$-structure} if it is normal and
+%the form $\Phi$ is closed, i.e.,
+$d \Phi=0$. We define two subclasses of weak ${K}$-manifolds
+as follows:
+
+(ii) \textit{weak ${\cal C}$-manifolds} if $d\eta^i = 0$ for any $i$, and
+
+(iii) \textit{weak ${\cal S}$-manifolds} if the following is valid:
+%\eqref{2.3}
+\begin{align}\label{2.3}
+ \Phi=d{\eta^1}=\ldots =d{\eta^s} .
+\end{align}
+%is true.
+%\newline
+Omitting the normality condition, we get the following: a weak metric $f$-structure is called
+
+(i)~a \textit{weak almost ${\cal K}$-structure} if $d\Phi=0$;
+
+(ii)~a \textit{weak almost ${\cal C}$-structure} if $\Phi$ and $\eta^i\ (1\le i\le s)$ are closed forms;
+
+(iii)~a \textit{weak almost ${\cal S}$-structure} if \eqref{2.3} is valid (hence, $d\Phi=0$).
+
+\noindent
+A weak almost ${\cal S}$-structure, whose structure vector fields ${\xi_i}$ are Killing,~i.e.,
+\begin{eqnarray*}%\label{E-nabla}
+%\nonumber
+ (\pounds_{{\xi_i}}\,g)(X,Y)
+ %:= {\xi_i}(g(X,Y)) -g([{\xi_i},X],Y) - g(X,[{\xi_i},Y]) \\
+  = g(\nabla_Y {\xi_i}, X) + g(\nabla_X {\xi_i}, Y) = 0 ,
+\end{eqnarray*}
+is called a \textit{weak $f$-{\rm K}-contact structure}.
+%the structure is intermediate between weak metric $f$-structure and weak $S$-structure.",Is the notion of a weak $f$-K-contact structure equivalent to a weak $S$-structure?
+17566,2501.06877,a unified approach to two pointwise ergodic theorems: double recurrence   and return times,"['math.ds', 'math.ca']",propositions,"\label{p:tfa}
+    Suppose that $\mathbf{S} := \{ s = I_s \times \omega_s\}$ are a set of pairwise incomparable tiles, whose times intervals are contained in a parental interval $I_{\mathbf{S}}$, with $|\omega_s| \ll 1$ sufficiently small. Suppose that $|g| \leq 1$, and that for some $\delta > 0$,
+\[ |\langle \psi_s, g \rangle_{\mathbb{Z}}| \approx \delta |I_s|^{1/2}\]
+Then, for any $\epsilon > 0$,
+\[ \sum_{s \in \mathbf{S}} |\langle \psi_s,g\rangle|^2 \lesssim_\epsilon \delta^{-\epsilon} \| g \mathbf{1}_{I_{\mathbf{S}}} \|_{\ell^2}^2 \]
+and in particular
+\[ \sum_{s \in \mathbf{S}, \ I_s \subset I_0} |I_s| \lesssim_\epsilon \delta^{-2-\epsilon} |I_0|. \]",What is the relationship between the sum of the lengths of the intervals in the parental interval $I_{\mathbf{S}}$ and the sum of the squared absolute values of the inner products of the $\psi_s$ with a function $g$ that is supported on $I_{\mathbf{S}}$?
+29746,2501.11472,poles of p-adic asai l-functions and distinguished representations,"['math.nt', 'math.rt']",propositions,"\label{prop:factorisation}
+   We have an identity in $\Lambda$
+   \[
+    \cL_{p,\As}(\uPi)(\lambda, 1 - \lambda)=\left(1-\frac{\alpha_2(\lambda)}{\alpha_1(\lambda)}\right) \left(1-\frac{\beta_2(\lambda)}{\alpha_1(\lambda)}\right)\cdot \cL^\flat_{p,\As}(\uPi)(\lambda).
+   \]","What is the relationship between the parameters \alpha_1(\lambda) and \alpha_2(\lambda) in the identity \cL_{p,\As}(\uPi)(\lambda, 1 - \lambda)?"
+32462,2501.12325,estimates for short character sums evaluated at homogeneous polynomials,['math.nt'],lemmas,"\label{lem:energy_elementary} Let $1\leq H\leq p$ be an integer. Let $\Nbf=(N_1,...,N_n)$ and $\Hbf=(H_1,...,H_n)$ such that $H\leq H_i\leq 2H$ for all $1\leq i\leq n$. Then
+    $H^{2n}\ll_n E((\Nbf,\Nbf+\Hbf])\ll_n H^{3n}$.","What is the asymptotic growth rate of the energy of a pair of random $n$-tuples $(\Nbf,\Nbf+\Hbf)$, where $\Nbf$ and $\Hbf$ are chosen from the set of integers $\{1,2,\ldots,2H\}$, and $H$ is an integer with $1\leq H\leq p$?"
+37886,2501.14454,homoenergetic solutions for the rayleigh-boltzmann equation: existence   of a stationary non-equilibrium solution,"['math.ap', 'math-ph', 'math.mp']",definitions,"\label{def:preGen} 
+    Let $\Omega$ be locally compact. A linear operator $T: \D \mathscr(T) \subseteq C_0(\Omega) \rightarrow C_0(\Omega)$ is a Markov pre-generator if 
+    \begin{itemize}
+        \item [$(i)$] $\mathscr{D}(T)$ is dense in $C_0(\Omega)$;
+        \item [$(ii)$] For every sequence $(\vp_n)_n \subseteq \D(T)$ such that $\vp_n \rightarrow 1$ pointwise one has $T\vp_n \rightarrow 0$ pointwise;
+        \item [$(iii)$] If $\vp \in \mathscr{D}(T)$ has positive maximum at $x_0$ then $(T\vp)(x_0) \leq 0$.
+    \end{itemize}",Is the Markov pre-generator condition $(iii)$ sufficient for the operator $T$ to be a Markov generator?
+41563,2501.15821,"ma-qiu index, presentation distance, and local moves in knot theory",['math.gt'],corollaries,"\label{cor:surgery}
+Let $M$ and $M'$ be oriented closed 3-manifolds with $H_1(M;\Z) \cong H_1(M',\Z)$. If $M'$ is obtained by a Dehn surgery on a knot $K$ in $M$, $|a(\pi_1(M))- a(\pi_1(M'))| \leq 1$.",What is the relationship between the first homology groups of $M$ and $M'$ when $M'$ is obtained by a Dehn surgery on a knot $K$ in $M$?
+49306,2501.18654,"irreducible components of the varieties of jordan superalgebras of types   $(1,3)$ and $(3,1)$",['math.ra'],theorems,"There exist exactly $21$ rigid Jordan superalgebras of type $(3,1)$, whose closures of their orbits are the irreducible components of the variety  $\mathcal{JS}^{(3,1)}$. The rigid superalgebras are:\\ $(3,1)_i$, for 
+$i \in \{6, 9, 10, 11, 13, 14, 15, 16, 18, 19, 20, 21, 22,  46, 48, 50, 52, 53, 54, 55, 56 \}.
+$
+\label{theorem:irreducible_components_3_1}","What is the number of rigid Jordan superalgebras of type $(3,1)$?"
+65527,2502.05681,$p$-anisotropy on the moment curve for homology manifolds and cycles,"['math.co', 'math.ac']",lemmas,"\label{anf}
+    Let $\tau\in |\mu|$ be a $d-m-1$-dimensional face where $m$ is non-negative.
+    Then the $m$-th graded piece $\ann^m_{\BB^*(\mu)}(x_\tau)$ of the annihilator is spanned by non-face monomials of $\st_\tau|\mu|$.",What is the span of the $m$-th graded piece $\ann^m_{\BB^*(\mu)}(x_\tau)$ of the annihilator for a $d-m-1$-dimensional face $\tau\in |\mu|$?
+69287,2502.07607,the difference kapranov theorem,"['math.ag', 'math.lo']",theorems,"\label{diffkap}{(The Difference Kapranov Theorem)}
+			
+			Let $K$ be a multiplicative valued difference field of characteristic zero that is spherically complete.
+			Assume its difference residue field is an ACFA of characteristic zero and the scaling exponent, $\rho$ is transcendental.\\
+			Let the difference value group $\Gamma$ of $K$ be a subgroup of $\mathbb{R}$ that is a $\mathbb{Q}(\rho)$-module.\\
+			Suppose $f \in K_{\sigma}\left[x_1^{\pm1},\dots,x_n^{\pm1}\right]$ is a Laurent difference polynomial.The following sets coincide:
+			\begin{enumerate}
+				\item $\mathoptrop(V(f)) \subseteq \mathbb{R}^n$ which is the difference tropical hypersurface associated to $f$;
+				\item the set of all the points $w \in \mathbb{R}^n$ for which the initial form $\mathopin_w(f)$ is not a monomial;
+				\item the closure of the set $A=\left\lbrace (v(y_1),\dots,v(y_n)):(y_1,\dots,y_n)\in V(f) \right\rbrace $ in $\mathbb{R}^n$.
+			\end{enumerate}",What is the significance of the assumption that the scaling exponent \rho is transcendental in the context of the Difference Kapranov Theorem?
+72970,2502.08979,"hyperk\""ahler structures on leaves of hyper-lie poisson manifolds","['math.dg', 'math.sg']",theorems,"Hyperkähler metric on symplectic leaves of the hyper-Lie Poisson manifold $(\su(2)^3_{\star}; \pi_1,\pi_2,\pi_3)$ of different types  cannot be  isomorphic as hyperkähler manifolds. Moreover, for any $t>0$,  the diffeomorphism
+$
+\rho_{t}\colon N_{q,r}\rightarrow N_{qt,rt},
+(a_1,a_2,a_3)\mapsto (\sqrt{t}a_1,\sqrt{t}a_2,\sqrt{t}a_3),
+$
+intertwines the three complex structures, and satisfies  $\rho^*_t (g_{qt,rt})=\sqrt{t}\cdot g_{q,r},$ 
+where $g_{qt,rt}$, $g_{q,r}$ are the induced metric on $N_{qt,rt}$, $N_{q,r}$, respectively.","Does the hyperkähler metric on symplectic leaves of the hyper-Lie Poisson manifold $(\su(2)^3_{\star}; \pi_1,\pi_2,\pi_3)$ of different types  can be isomorphic as hyperkähler manifolds?"
+76864,2502.10738,"weighted weak-type (1, 1) inequalities for pseudo-differential operators   with symbol in $s^{m}_{0,\delta}$",['math.ap'],propositions,"Let $0\leq\varrho\leq1,$ $0\leq\delta<1$ and $a(x,\xi)\in S^{m}_{\varrho,\delta}$.
+If $$m< -\frac{n}{2}(1-\varrho)-\frac{n}{2}\max\{\delta-\varrho,0\},$$
+then
+$$\|T_{a}u\|_{L^{1}}\lesssim\|u\|_{L^{1}}.$$","What is the condition on $a(x,\xi)$ for the inequality $\|T_{a}u\|_{L^{1}}\lesssim\|u\|_{L^{1}}$ to hold for all $u$ in $L^{1}$?"
+80808,2502.12679,"the change of variable formula integrals, do they have equal value?",['math.ca'],lemmas,"({\sf Serrin and Varberg's Theorem.})\label{Serrin} Let $\Phi:\mathbb R\to \mathbb R$ be an arbitrary function.  Let us suppose that $\Phi$ has a derivative (finite or infinite) on a set $E$ whose image  $\Phi(E)$ is a set of measure zero. Then, we have
+$$ \Phi' = 0 \ \textrm{almost everywhere on}\ E.$$",Is Serrin and Varberg's Theorem applicable to functions that are not differentiable everywhere on their domain?
+87773,2502.15665,kinetic optimal transport (otikin) -- part 1: second-order discrepancies   between probability measures,"['math.ap', 'math.fa', 'math.mg', 'math.pr']",lemmas,"\label{lem:derrhov}
+	Let~$t \in (a,b)$ be a ${\mathrm{W}_2}$-differentiability point for~$\tilde t \to \rho_{\tilde t}$ such that
+	\begin{equation}
+		\lim_{h \downarrow 0} \sfd(\mu_t,\mu_{t+h}) = 0
+			\quad \text{and} \quad
+		l \coloneqq \liminf_{h \downarrow 0} \frac{T_{t,t+h}}{h} < \infty \fstop
+	\end{equation}
+	Then,
+	\begin{equation}
+		\abs{\rho_t'}_{{\mathrm{W}_2}} \le l \, \norm{v}_{\Lp{2}(\mu_t)} \fstop
+	\end{equation}
+	In particular,~$t \mapsto \norm{v}_{\Lp{2}(\mu_t)}$ is a.e.~strictly positive under the assumptions of \Cref{prop:actovlasov}.","What is the relationship between the limit of the Wasserstein distance and the limit inferior of the time derivative of the density, as stated in \Cref{lem:derrhov}?"
