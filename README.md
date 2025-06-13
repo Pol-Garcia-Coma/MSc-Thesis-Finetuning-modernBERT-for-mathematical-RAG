@@ -47,7 +47,7 @@ We evaluated retrieval performance using standard metrics across four model conf
 | nDCG@10        | 0.0733         | 0.4428         | 0.4491         | **0.4952**     |
 | MRR@10         | 0.2016         | 0.8932         | 0.8966         | **0.9311**     |
 
-Fine-tuning led to massive gains across all models and metrics. Notably, **Accuracy@1** improved from 17.8% to over **91%**, and **Recall@30** increased more than **600%**, demonstrating that the model retrieves significantly more relevant theorems after training.
+Fine-tuning led to massive gains across all models and metrics. Furthermore, applying DAPT or using the sentence embeddings fine tuned nomicAI achieves further improvements, ultimately leading to more robust and accurate retrieval performance. 
 
 ---
 
