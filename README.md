@@ -29,6 +29,37 @@ The dataset is derived from 12,000 mathematical research papers on arXiv (Januar
 - Available in this repo: **a small sample of the dataset for inspection purposes**
 
 ---
+##  Main Results
+
+We evaluated retrieval performance using standard metrics across four model configurations: a baseline ModernBERT model, two fine-tuned versions (with and without Domain-Adaptive Pretraining), and a pre-finetuned sentence encoder from nomic.ai. All fine-tuning was performed using Multiple Negatives Ranking Loss on 88k+ question–statement pairs.
+
+###  Retrieval Metrics
+
+| Metric         | Baseline Model | FT ModernBERT | FT DAPT        | FT NomicAI     |
+|----------------|----------------|----------------|----------------|----------------|
+| Accuracy@1     | 0.1777         | 0.8655         | 0.8686         | **0.9129**     |
+| Accuracy@3     | 0.2147         | 0.9150         | 0.9186         | **0.9455**     |
+| Accuracy@5     | 0.2350         | 0.9282         | 0.9330         | **0.9544**     |
+| Recall@30      | 0.0260         | 0.1904         | 0.1944         | **0.2204**     |
+| Precision@3    | 0.1064         | 0.6053         | 0.6121         | **0.6632**     |
+| Precision@5    | 0.0793         | 0.4863         | 0.4932         | **0.5432**     |
+| Precision@10   | 0.0511         | 0.3406         | 0.3476         | **0.3731**     |
+| nDCG@10        | 0.0733         | 0.4428         | 0.4491         | **0.4952**     |
+| MRR@10         | 0.2016         | 0.8932         | 0.8966         | **0.9311**     |
+
+Fine-tuning led to massive gains across all models and metrics. Notably, **Accuracy@1** improved from 17.8% to over **91%**, and **Recall@30** increased more than **600%**, demonstrating that the model retrieves significantly more relevant theorems after training.
+
+---
+
+### Cosine Similarity of Theorem Embeddings
+
+We also analyzed how fine-tuning reshapes the semantic space. Below is a comparison of cosine similarity matrices between theorem embeddings:
+
+<img src="cos_sim.png" alt="Cosine Similarity Heatmaps" width="100%"/>
+
+The base ModernBERT produces highly uniform similarity (left), where unrelated theorems often appear close. After fine-tuning (right), the model forms more structured and discriminative clusters, separating semantically distinct mathematical content. This reflects a significant improvement in embedding quality and domain awareness.
+
+
 
 ##  How to Navigate the Repository
 
@@ -38,4 +69,5 @@ The dataset is derived from 12,000 mathematical research papers on arXiv (Januar
 - `data_sample/` – A sample of the (query, statement) dataset for testing and experimentation.
 - `README.md` – Project documentation.
 - `LICENSE` – Licensing information.
+
 
