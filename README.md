@@ -63,11 +63,31 @@ The base ModernBERT produces highly uniform similarity (left), where unrelated t
 
 ##  How to Navigate the Repository
 
-- `notebooks/` – Google Colab-compatible notebooks for preprocessing, fine-tuning, and evaluation.
-- `scripts/` – Utility scripts for LaTeX parsing, segmentation, and data formatting.
-- `config/` – Training and model configuration files.
-- `data_sample/` – A sample of the (query, statement) dataset for testing and experimentation.
-- `README.md` – Project documentation.
-- `LICENSE` – Licensing information.
+```bash
+.
+├── 1. DAPT
+│   ├── DAPT_modernBERT.ipynb 
+├── 2. Data
+│   ├── Data_Extraction_and_Preprocessing.ipynb 
+│   └── dataset_sample.csv
+├── 3. Fine-Tuning
+│   ├── FT_modernBERT_base.ipynb
+│   ├── FT_nomic_modernBERT.ipynb
+│   ├── FT_template.ipynb
+│   ├── embedding_clustering.ipynb
+│   ├── hard_negative_mining.ipynb
+│   └── train_test_split.ipynb
+├── 4. Model_Comparison
+│   ├── Visualizations.ipynb
+│   └── mathBERT_modernBERT.ipynb
+├── 5. Query_Creation
+│   ├── Dataset_manipulation.ipynb
+│   ├── Post_Processing.ipynb
+│   └── Query_Generation.ipynb
+├── LICENSE
+├── README.md
+├── Thesis_Report.pdf
+└── cos_sim.png
 
+```
 
